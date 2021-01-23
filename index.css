@@ -1,0 +1,20 @@
+/* Set the margin and padding to 0 for position */
+* { margin: 0; padding: 0; }
+
+
+/* Set the height of the html and body to 100% for top: 50% */
+html,
+body {
+  height: 100%;
+}
+
+
+/* Clock design */
+#clock {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 68px;
+  margin-top: -34px;
+}
